@@ -1,0 +1,46 @@
+{
+  "name": "@veriapi/sdk",
+  "version": "0.1.0",
+  "description": "VeriApi.Pro resmî JavaScript / TypeScript istemcisi: döviz, hava, namaz, deprem, il/ilçe",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0"
+  },
+  "keywords": [
+    "veriapi",
+    "turkiye",
+    "doviz",
+    "hava",
+    "namaz",
+    "deprem"
+  ],
+  "homepage": "https://veriapi.pro",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veriapipro/veriapi-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/veriapipro/veriapi-js/issues"
+  }
+}
