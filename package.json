@@ -1,5 +1,5 @@
 {
-  "name": "@veriapi/sdk",
+  "name": "@veriapipro/sdk",
   "version": "0.1.0",
   "description": "VeriApi.Pro resmî JavaScript / TypeScript istemcisi: döviz, hava, namaz, deprem, il/ilçe",
   "type": "module",

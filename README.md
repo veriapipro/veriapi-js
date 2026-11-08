@@ -7,13 +7,13 @@ Official JavaScript/TypeScript client for [VeriApi.Pro](https://veriapi.pro/?ref
 Bağımlılık yok, `fetch` kullanır. Node 20+, Deno, Bun, Workers ve tarayıcı. Yalnızca ESM, tipler pakette.
 
 ```bash
-npm install @veriapi/sdk
+npm install @veriapipro/sdk
 ```
 
 ## Hızlı başlangıç
 
 ```js
-import { VeriApi, VeriApiHatasi } from "@veriapi/sdk";
+import { VeriApi, VeriApiHatasi } from "@veriapipro/sdk";
 
 const api = new VeriApi({ anahtar: process.env.VERIAPI_ANAHTAR });
 
@@ -80,7 +80,7 @@ Ham gövdeyi kullanın; `JSON.stringify` ile yeniden üretilen gövdede imza tut
 
 ```js
 import express from "express";
-import { imzaDogrula } from "@veriapi/sdk";
+import { imzaDogrula } from "@veriapipro/sdk";
 
 const app = express();
 
